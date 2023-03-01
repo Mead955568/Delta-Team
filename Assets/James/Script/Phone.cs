@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Phone : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public GameObject child;
 public GameObject health;
 public GameObject phone;
 
-// Start is called before the first frame update
-void Start()
+    public float timeToTurnOff = 5.0f;
+    // Start is called before the first frame update
+    void Start()
 {
 
 }
@@ -26,9 +28,9 @@ void Update()
     {
         health.SetActive(false); //changes the canvas text
         phone.SetActive(true);
+            Invoke("TurnOff", timeToTurnOff);
 
-
-    }
+        }
 }
 public void OnTriggerEnter(Collider other)
 {
@@ -44,4 +46,8 @@ public void OnTriggerEnter(Collider other)
             }
         }
 }
+    void TurnOff()
+    {
+        SceneManager.LoadScene("Clinic2_The Reckoning");
+    }
 }
