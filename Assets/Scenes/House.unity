@@ -10379,7 +10379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e670a60426c1fe4ca6725b7c9dd2584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTurnOff: 8
+  timeToTurnOff: 5
 --- !u!65 &325919615
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25408,7 +25408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e670a60426c1fe4ca6725b7c9dd2584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTurnOff: 8
+  timeToTurnOff: 5
 --- !u!1 &1149944532
 GameObject:
   m_ObjectHideFlags: 0
@@ -26801,7 +26801,6 @@ GameObject:
   - component: {fileID: 1211329031}
   - component: {fileID: 1211329030}
   - component: {fileID: 1211329029}
-  - component: {fileID: 1211329032}
   m_Layer: 0
   m_Name: SnapSocketBedroom
   m_TagString: Untagged
@@ -26893,20 +26892,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1211329032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211329028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e9400d6581949498151c3cb3aea708, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coffee: 0
-  mug: {fileID: 1946975706}
 --- !u!1 &1221969031
 GameObject:
   m_ObjectHideFlags: 0
@@ -31477,7 +31462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e670a60426c1fe4ca6725b7c9dd2584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTurnOff: 8
+  timeToTurnOff: 5
 --- !u!1 &1619721207
 GameObject:
   m_ObjectHideFlags: 0
@@ -34657,8 +34642,6 @@ GameObject:
   - component: {fileID: 1946975705}
   - component: {fileID: 1946975704}
   - component: {fileID: 1946975703}
-  - component: {fileID: 1946975706}
-  - component: {fileID: 1946975707}
   m_Layer: 0
   m_Name: SnapSocketKitchen
   m_TagString: Untagged
@@ -34750,116 +34733,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1946975706
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946975702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5590543ea8474b44baba961cb1933dca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mug: 0
-  coffeenoise: {fileID: 1946975707}
---- !u!82 &1946975707
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946975702}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 412f3d48816732847a0b9ec3bf40cba0, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 2
-  Pan2D: 0
-  rolloffMode: 1
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1957936537
 GameObject:
   m_ObjectHideFlags: 0
@@ -36228,7 +36101,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2097199756}
   - component: {fileID: 2097199755}
-  - component: {fileID: 2097199757}
+  - component: {fileID: 2097199754}
+  - component: {fileID: 2097199753}
   m_Layer: 0
   m_Name: GirlEnd
   m_TagString: Untagged
@@ -36236,6 +36110,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &2097199753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097199752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f830c0429dd8e143bb7e72f338d8210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introEnd: {fileID: 2097199752}
+  intro: {fileID: 714298031}
+  next: {fileID: 324910406}
+--- !u!114 &2097199754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097199752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f830c0429dd8e143bb7e72f338d8210, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introEnd: {fileID: 0}
+  intro: {fileID: 0}
+  next: {fileID: 0}
 --- !u!65 &2097199755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36257,28 +36161,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097199752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.855, y: 0.749, z: 4.57}
+  m_LocalPosition: {x: 0.09, y: 0.749, z: 4.272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2097199757
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2097199752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 931fab7312dd25542a337dd5918263b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  girlEnd: {fileID: 2097199752}
-  girl: {fileID: 324910406}
-  next: {fileID: 1604042749}
 --- !u!1 &2102996320
 GameObject:
   m_ObjectHideFlags: 0
@@ -41838,7 +41727,6 @@ GameObject:
   - component: {fileID: 729613000}
   - component: {fileID: 919132148106860290}
   - component: {fileID: 919132148106860291}
-  - component: {fileID: 919132148106860292}
   m_Layer: 0
   m_Name: Female_Child_01
   m_TagString: Child
@@ -41955,22 +41843,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.6615024, y: 2.8298213, z: 2.0304556}
   m_Center: {x: 0.8307512, y: 0.03296552, z: 0.5152241}
---- !u!114 &919132148106860292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148106860289}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3adaffd06f798634297b7a0cbd5e63f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  script: {fileID: 3469287837053970168}
-  healthEnd: {fileID: 919132148106860289}
-  health: {fileID: 1604042749}
-  phone: {fileID: 1144715677}
 --- !u!1 &919132148610380776
 GameObject:
   m_ObjectHideFlags: 0
@@ -41986,7 +41858,6 @@ GameObject:
   - component: {fileID: 1839725610}
   - component: {fileID: 1839725616}
   - component: {fileID: 1839725611}
-  - component: {fileID: 3469287837053970168}
   m_Layer: 0
   m_Name: caneca_low
   m_TagString: Mug
@@ -50828,20 +50699,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148610380776}
   m_Mesh: {fileID: -8931360336319166915, guid: 737173c86cdd72145ae4871d0a970d82, type: 3}
---- !u!114 &3469287837053970168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148610380776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86e9400d6581949498151c3cb3aea708, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coffee: 0
-  mug: {fileID: 0}
 --- !u!1 &3471495494270452694
 GameObject:
   m_ObjectHideFlags: 0
