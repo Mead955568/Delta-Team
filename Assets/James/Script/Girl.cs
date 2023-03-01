@@ -7,6 +7,9 @@ public class Girl : MonoBehaviour
 
     bool sick = false;
 
+    public GameObject introEnd;
+    public GameObject intro;
+    public GameObject next;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +22,11 @@ public class Girl : MonoBehaviour
     {
        if (sick == true)
         {
-            
+            intro.SetActive(false); //changes the canvas text
+            next.SetActive(true);
+
+            introEnd.SetActive(false); //switchs off the collider
+
         }
     }
     public void OnTriggerEnter(Collider other)

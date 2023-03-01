@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Child
+  - Mug
+  - Phone
   layers:
   - Default
   - TransparentFX
