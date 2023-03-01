@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Drink : MonoBehaviour
 {
+    public bool coffee = false;
+
+    public Sounds mug;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +18,14 @@ public class Drink : MonoBehaviour
     void Update()
     {
         
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Mug"))
+        {
+            Debug.Log("coffee place");
+            
+            coffee = true;
+        }
     }
 }
