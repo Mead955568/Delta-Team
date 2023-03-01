@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Sounds : MonoBehaviour
 {
+    public AudioSource coffeemaker;
+
+    public bool coffee = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,16 @@ public class Sounds : MonoBehaviour
     void Update()
     {
         
+    }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Mug"))
+        {
+            Debug.Log("Coffee mug");
+
+            coffeemaker.Play();
+
+            coffee = true;
+        }
     }
 }
