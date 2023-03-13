@@ -2710,6 +2710,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6400008, guid: 8603858b0e8f08c47b7ae6adffe29a5b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8603858b0e8f08c47b7ae6adffe29a5b, type: 3}
 --- !u!4 &410219679 stripped
@@ -2718,6 +2722,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 410219678}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &410219680 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100008, guid: 8603858b0e8f08c47b7ae6adffe29a5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 410219678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &410219681
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 410219680}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.45292145, y: 0.43198192, z: 0.39942804}
+  m_Center: {x: -0.0044008493, y: 0.39900875, z: -0.003377214}
 --- !u!1 &410773990
 GameObject:
   m_ObjectHideFlags: 0
@@ -4149,7 +4172,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -117.114105, y: -60.96044, z: -122.17185, w: 0}
+  m_margin: {x: -119.0766, y: -60.96044, z: -117.91174, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -5305,6 +5328,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6400000, guid: b1088632809fb15459ba8b1fefd4d81c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1088632809fb15459ba8b1fefd4d81c, type: 3}
 --- !u!4 &860043670 stripped
@@ -5313,6 +5340,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 860043669}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &860043671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b1088632809fb15459ba8b1fefd4d81c,
+    type: 3}
+  m_PrefabInstance: {fileID: 860043669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &860043672
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860043671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4711506, y: 0.78827757, z: 0.4700173}
+  m_Center: {x: 0.03967261, y: 0.3929117, z: 0.00009348246}
 --- !u!1 &875329833
 GameObject:
   m_ObjectHideFlags: 0
@@ -9161,7 +9207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e670a60426c1fe4ca6725b7c9dd2584, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToTurnOff: 4
+  timeToTurnOff: 7
 --- !u!114 &1382970421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10306,6 +10352,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6400000, guid: b1088632809fb15459ba8b1fefd4d81c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1088632809fb15459ba8b1fefd4d81c, type: 3}
 --- !u!4 &1542252834 stripped
@@ -10314,6 +10364,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1542252833}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1542252835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b1088632809fb15459ba8b1fefd4d81c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1542252833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1542252836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542252835}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4711506, y: 0.78827757, z: 0.4700173}
+  m_Center: {x: 0.03967237, y: 0.3929117, z: 0.000093720875}
 --- !u!1 &1584638259
 GameObject:
   m_ObjectHideFlags: 0
