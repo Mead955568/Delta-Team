@@ -10962,6 +10962,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713542284}
+  - component: {fileID: 1713542287}
+  - component: {fileID: 1713542286}
+  - component: {fileID: 1713542285}
   m_Layer: 0
   m_Name: ScriptHolder
   m_TagString: Untagged
@@ -10984,6 +10987,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1713542285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713542283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656b2cc87c5d4804682885932e0db080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TableName: Time
+  NewRecordJson: 
+--- !u!114 &1713542286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713542283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fb332702c860242a2a4664d1615fbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playtime: 0
+  UIResponse: 
+--- !u!114 &1713542287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1713542283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f725af14a1d15554982d406367ab5c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createRecord: {fileID: 1713542285}
+  dataCollectionScript: {fileID: 1713542286}
 --- !u!1 &1729780878
 GameObject:
   m_ObjectHideFlags: 0

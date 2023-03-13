@@ -5,12 +5,10 @@ using UnityEngine;
 
 public class GetRecordExample : MonoBehaviour
 {
-
     [Header("Record Id")] 
     public string TableName;
     public string RecordId;
-
-
+    
     [ContextMenu("Get Record")]
     public void GetRecord()
     {
@@ -29,6 +27,5 @@ public class GetRecordExample : MonoBehaviour
         msg += "created at: " + record?.createdTime?.ToString();
         
         Debug.Log("[Airtable Unity] - Get Record: " + "\n" + msg);
-
     }
 }

@@ -7,8 +7,6 @@ using System.Linq;
 
 public static class UnityWebRequestExtension
 {
-    public static string getResponse;
-
     public enum Method { GET, POST, PUT, PATCH, DELETE };
 
     public static void SetRequestHeaders(this UnityWebRequest request, Dictionary<string, string> headers)
@@ -48,8 +46,6 @@ public static class UnityWebRequestExtension
             $"{c1}Method: {c2}{request.method}\n" +
             $"{c1}UploadHandler: {c2}{request.uploadHandler}\n" +
             $"{c1}DownloadHandler: {c2}{request.downloadHandler.text}");
-
-        getResponse = request.downloadHandler.text;
 
         if (response.Success)
         {
